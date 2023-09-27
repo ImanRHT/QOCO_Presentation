@@ -1,13 +1,14 @@
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Background}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Countribution}{4}{0}{1}
-\beamer@sectionintoc {2}{System Model}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{Communication Model}{6}{0}{2}
-\beamer@subsectionintoc {2}{2}{Computation Model}{6}{0}{2}
-\beamer@sectionintoc {3}{Problem Formulation}{7}{0}{3}
-\beamer@subsectionintoc {3}{1}{Markov Decision Process}{8}{0}{3}
-\beamer@subsectionintoc {3}{2}{QoE Optimization Problem}{8}{0}{3}
-\beamer@sectionintoc {4}{DRL-Based Offloading Algorithm}{9}{0}{4}
-\beamer@subsectionintoc {4}{1}{DQN-based solution}{10}{0}{4}
-\beamer@sectionintoc {5}{Performance Evaluation}{11}{0}{5}
-\beamer@sectionintoc {6}{Conclusion and Future Work}{13}{0}{6}
+\beamer@sectionintoc {1}{Background}{3}{0}{1}
+\beamer@sectionintoc {2}{Countribution}{5}{0}{2}
+\beamer@sectionintoc {3}{System Model}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Task Model}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Communication Model}{8}{0}{3}
+\beamer@subsectionintoc {3}{3}{Computation Model}{8}{0}{3}
+\beamer@sectionintoc {4}{Problem Formulation}{9}{0}{4}
+\beamer@subsectionintoc {4}{1}{Markov Decision Process}{10}{0}{4}
+\beamer@subsectionintoc {4}{2}{QoE Optimization Problem}{10}{0}{4}
+\beamer@sectionintoc {5}{DRL-Based QOCO Algorithm}{11}{0}{5}
+\beamer@sectionintoc {6}{Performance Evaluation}{13}{0}{6}
+\beamer@subsectionintoc {6}{1}{Simulation Settings}{14}{0}{6}
+\beamer@subsectionintoc {6}{2}{Performance Comparison}{14}{0}{6}
+\beamer@sectionintoc {7}{Conclusion and Future Work}{15}{0}{7}
