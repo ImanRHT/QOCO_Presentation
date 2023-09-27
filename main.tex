@@ -1,0 +1,97 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+%Load useful packages
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{subcaption}
+\usepackage{subfiles}
+\usepackage{url}
+\usepackage{amssymb}
+
+%Information to be included in the title page:
+\title{QOCO: A QoE-Oriented Computation Offloading Algorithm based on Deep Reinforcement Learning for Mobile Edge Computing}
+
+\author{
+	$\text{Iman Rahmati}^{\dagger}$, $\text{Hamed Shah-Mansouri}^{\ddagger}$, and $\text{Ali Movaghar}^{\dagger}$
+	\\ 
+	$^\dagger$Department of Computer Engineering, Sharif University of Technology, Tehran, Iran \\
+	$^\ddagger$Department of Electrical Engineering, Sharif University of Technology, Tehran, Iran \\
+	email: {\{iman.rahmati, hamedsh, movaghar\}}@sharif.edu
+}
+
+\author{Iman Rahmati, Hamed Shah-Mansouri, and Ali Movaghar}
+\institute{Sharif University of Technology, Tehran, Iran}
+\date{\today}
+%Logo in every slide
+\logo{%
+  \makebox[0.98\paperwidth]{
+    %\includegraphics[width=1.5cm,keepaspectratio]{logos/penn_eng_logo.jpg}%
+    %\hfill%
+    %\includegraphics[height=.5cm,keepaspectratio]{logos/precise_logo.png}%
+  }
+}
+%Contents before every section's starting slide
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+% shape, colour of item, nested item bullets in itemize only
+\setbeamertemplate{itemize item}[square] \setbeamercolor{itemize item}{bg=blue}
+\setbeamertemplate{itemize subitem}[circle] \setbeamercolor{itemize subitem}{fg=green}
+\setbeamertemplate{itemize subsubitem}[triangle] \setbeamercolor{itemize subsubitem}{fg=red}
+% font size of nested and nested-within-nested bulltes in both itemize and enumerate
+% options are \tiny, \small, \scriptsize, \normalsize, \footnotesize, \large, \Large, \LARGE, \huge and \Huge
+\setbeamerfont{itemize/enumerate subbody}{size=\scriptsize} 
+\setbeamerfont{itemize/enumerate subsubbody}{size=\scriptsize}
+
+%%setting up some useful slide creation commands
+%split slide
+\newenvironment{splitframe}[5]
+%[1] ==> 1 parameter passed through {}
+%[2] ==> 2 parameters passed through {}{}
+%[4] ==> 4 parameters passed through {}{}{}{}
+    {
+    \begin{frame}{#3}
+    \begin{columns}
+    \column{#1\linewidth}
+    \centering
+    #4
+    \column{#2\linewidth}
+    \centering
+    #5
+    \end{columns}
+    \centering
+    \vspace{\baselineskip} % adds one line space
+    }
+    %Inside the first pair of braces (ABOVE) is set what your new environment will do before the text within, then inside the second pair of braces (BELOW) declare what your new environment will do after the text. Note second pair can be empty braces too.
+    {
+    \end{frame}
+    }
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Overview}
+\tableofcontents
+\end{frame}
+
+\subfile{sec1}
+
+\subfile{sec2}
+
+\subfile{sec3}
+
+\subfile{sec4}
+
+\subfile{sec5}
+
+\subfile{sec6}
+
+\end{document}
