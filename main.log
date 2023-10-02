@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  27 SEP 2023 18:01
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  2 OCT 2023 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -824,139 +824,395 @@ Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
 ))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box73
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen304
+\pgf@nodesepend=\dimen305
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen306
+\pgffor@skip=\dimen307
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 22.
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count329
+\pgfplotmarksize=\dimen308
+)
+\tikz@lastx=\dimen309
+\tikz@lasty=\dimen310
+\tikz@lastxsaved=\dimen311
+\tikz@lastysaved=\dimen312
+\tikz@lastmovetox=\dimen313
+\tikz@lastmovetoy=\dimen314
+\tikzleveldistance=\dimen315
+\tikzsiblingdistance=\dimen316
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count330
+\tikznumberofchildren=\count331
+\tikznumberofcurrentchild=\count332
+\tikz@fig@count=\count333
 
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count334
+\pgfmatrixcurrentcolumn=\count335
+\pgf@matrix@numberofcolumns=\count336
+)
+\tikz@expandcount=\count337
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dagger' on input line 22.
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodepartlowerbox=\box78
+\pgfnodeparttwobox=\box79
+\pgfnodepartthreebox=\box80
+\pgfnodepartfourbox=\box81
+\pgfnodeparttwentybox=\box82
+\pgfnodepartnineteenbox=\box83
+\pgfnodeparteighteenbox=\box84
+\pgfnodepartseventeenbox=\box85
+\pgfnodepartsixteenbox=\box86
+\pgfnodepartfifteenbox=\box87
+\pgfnodepartfourteenbox=\box88
+\pgfnodepartthirteenbox=\box89
+\pgfnodeparttwelvebox=\box90
+\pgfnodepartelevenbox=\box91
+\pgfnodeparttenbox=\box92
+\pgfnodepartninebox=\box93
+\pgfnodeparteightbox=\box94
+\pgfnodepartsevenbox=\box95
+\pgfnodepartsixbox=\box96
+\pgfnodepartfivebox=\box97
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks48
+\verbatim@line=\toks49
+\verbatim@in@stream=\read3
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box98
+\tcb@upperbox=\box99
+\tcb@lowerbox=\box100
+\tcb@phantombox=\box101
+\c@tcbbreakpart=\count338
+\c@tcblayer=\count339
+\c@tcolorbox@number=\count340
+\tcb@temp=\box102
+\tcb@temp=\box103
+\tcb@temp=\box104
+\tcb@temp=\box105
+\tcb@out=\write5
+\tcb@record@out=\write6
 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '4.42'
+\c@tcbrastercolumn=\count341
+\c@tcbrasterrow=\count342
+\c@tcbraster=\count343
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.42'
+\tcb@waterbox=\box106
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ddagger' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dagger' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dagger' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ddagger' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 22.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.42'
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/generic/oberdiek/pdfcol.sty
+Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
+)
+Package pdfcol Info: pdfTeX's color stacks are not available.
+\tcb@testbox=\box107
+\tcb@totalupperbox=\box108
+\tcb@totallowerbox=\box109
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '4.42'
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '4.42'
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '4.42'
+\tcbfitdim=\dimen317
+\tcb@lowerfitdim=\dimen318
+\tcb@upperfitdim=\dimen319
+\tcb@cur@hbadness=\count344
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
 
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count329
-\l__color_backend_stack_int=\count330
-\g__color_backend_stack_int=\count331
-\g__graphics_track_int=\count332
-\l__pdf_internal_box=\box73
-\g__pdf_backend_object_int=\count333
-\g__pdf_backend_annotation_int=\count334
-\g__pdf_backend_link_int=\count335
-) (./main.aux)
+\c__kernel_sys_dvipdfmx_version_int=\count345
+\l__color_backend_stack_int=\count346
+\g__color_backend_stack_int=\count347
+\g__graphics_track_int=\count348
+\l__pdf_internal_box=\box110
+\g__pdf_backend_object_int=\count349
+\g__pdf_backend_annotation_int=\count350
+\g__pdf_backend_link_int=\count351
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex))))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.te
+x
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count352
+\lst@gtempboxa=\box111
+\lst@token=\toks50
+\lst@length=\count353
+\lst@currlwidth=\dimen320
+\lst@column=\count354
+\lst@pos=\count355
+\lst@lostspace=\dimen321
+\lst@width=\dimen322
+\lst@newlines=\count356
+\lst@lineno=\count357
+\lst@maxwidth=\dimen323
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count358
+\lst@skipnumbers=\count359
+\lst@framebox=\box112
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
+x
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count360
+))
+Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
+Library `listings` is loaded instead. on input line 29.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '4.42'
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '4.42'
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '4.42'
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '4.42'
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamerfontthemeprofessiona
+lfonts.sty)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dagger' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ddagger' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dagger' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dagger' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ddagger' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 91.
+
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
-3.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 152.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+52.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -992,7 +1248,7 @@ LaTeX Font Info:    ... okay on input line 83.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 152.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1003,57 +1259,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count336
+\c@section@level=\count361
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 152.
+LaTeX Info: Redefining \pageref on input line 152.
+LaTeX Info: Redefining \nameref on input line 152.
  (./main.out) (./main.out)
-\@outlinefile=\write5
-\openout5 = `main.out'.
+\@outlinefile=\write7
+\openout7 = `main.out'.
 
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 83.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 83.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 83.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 83.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 83.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 83.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1080,7 +1294,9 @@ tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count362
  (./main.nav) [1
 
 ] (./main.toc) [2
@@ -1088,89 +1304,107 @@ Package caption Info: End \AtBeginDocument code.
 ] (./sec1_1.tex
 (./main.toc) [3
 
-]
-
-LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 37.
-
-
-LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 37.
-
-[4
+] [4
 
 ]) (./sec1_2.tex (./main.toc) [5
 
-]
+] [6
 
-LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 36.
-
-[6
-
-]) (./sec2.tex (./main.toc) [7
+]) (./sec2.tex
+(./main.toc) [7
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
 
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
 
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 10.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 10.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 10.
- [8
+) [8
 
-])
-(./sec3.tex (./main.toc) [9
+]
+File: queue.pdf Graphic file (type pdf)
+<use queue.pdf>
+ [9
 
-] [10
+]
 
-]) (./sec4.tex (./main.toc) [11
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 122.
+
+[10
+
+] [11
 
 ] [12
 
+] [13
+
+]) (./sec3.tex (./main.toc) [14
+
+]
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 38.
+
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 38.
+
+[15
+
+]
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 64.
+
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+) [16
+
+]
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 102.
+
+[17
+
+]) (./sec4.tex (./main.toc) [18
+
+] [19
+
+]) (./sec5.tex (./main.toc) [20
+
+]
+[21
+
+]) (./sec6.tex (./main.toc) [22
+
+] [23
+
 ])
-(./sec5.tex (./main.toc) [13
+\tf@nav=\write8
+\openout8 = `main.nav'.
 
-] [14
+\tf@toc=\write9
+\openout9 = `main.toc'.
 
-]) (./sec6.tex (./main.toc) [15
+\tf@snm=\write10
+\openout10 = `main.snm'.
 
-] [16
-
-])
-\tf@nav=\write6
-\openout6 = `main.nav'.
-
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
-\tf@snm=\write8
-\openout8 = `main.snm'.
-
-
-(./main.aux)
+ (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9692AF67FCE41432A76E90B75102AF6E;2060.
+(rerunfilecheck)             Checksum: 0C7165FB2D231984F643A9971BAB463F;1944.
  ) 
 Here is how much of TeX's memory you used:
- 21774 strings out of 476919
- 406030 string characters out of 5821839
- 711377 words of memory out of 5000000
- 41268 multiletter control sequences out of 15000+600000
- 408523 words of font info for 56 fonts, out of 8000000 for 9000
+ 31342 strings out of 476919
+ 650032 string characters out of 5821839
+ 1011943 words of memory out of 5000000
+ 50653 multiletter control sequences out of 15000+600000
+ 412436 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,15n,132p,417b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,21n,132p,417b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (16 pages).
+Output written on main.pdf (23 pages).

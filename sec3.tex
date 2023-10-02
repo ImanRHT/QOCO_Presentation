@@ -3,8 +3,100 @@
 \subsection{QoE Optimization Problem}
 
 
-\begin{splitframe}{0.5}{0.5}{Split Frame Title}
-{this text is on the left side (changeable size 0.5 linewidth)}
-{this text is on the right side (changeable size 0.5 linewidth)}
-this text is in the middle
-\end{splitframe}
+\begin{frame}
+	\frametitle{Markov Decision Process}
+	
+	
+	\textbf{State Space:}
+	\begin{alignat}{2}
+		\boldsymbol{s}_i(t) = \Big(\lambda_i(t), \delta_i^{C}(t), \delta_i^{T}(t), \boldsymbol{\eta}_i^{E}(t-1)\textcolor{teal}{^\circ},\phi_i(t), \mathcal{H}(t)\textcolor{teal}{^\diamond} \Big)
+		\label{18}
+	\end{alignat}
+
+	\begin{enumerate}[]
+		
+		\item  \hspace{0mm} $\textcolor{teal}{^\circ} \boldsymbol{\eta}_i^{E}(t-1) = (\eta_{i,j}^{E}(t-1), j \in \mathcal{J})$
+		\vspace{2mm}
+		
+		\item  \hspace{0mm} $\textcolor{teal}{^\diamond} h_{i,j}(t) = B_j(t - T^{s} + i - 1)  \longrightarrow$ \textcolor{teal}{$T^{s} \times J$}
+	
+	\end{enumerate}
+
+$$\longrightarrow \textcolor{teal}{\mathcal{S} =  \Lambda \times T^2 \times \mathcal{U} \times 3 \times I^{T^{\text{s}} \times J}}$$
+	\vfill
+	\textbf{Action Space:}
+	\begin{alignat}{2}
+		\boldsymbol{a}_i(t) = (x_i(t), \boldsymbol{y}_i(t)\textcolor{teal}{^*})
+		\label{20}
+	\end{alignat}
+
+	\begin{enumerate}[]
+	
+	\item  \hspace{0mm} $\textcolor{teal}{^*} \boldsymbol{y}_i(t) = (y_{i,j}(t), j \in \mathcal{J})$
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Markov Decision Process}
+	
+	\textbf{QoE Function:}
+
+\vfill
+
+	
+
+	\textcolor{teal}{[Delay]}\vspace{3mm}
+	
+	$\mathcal{D}_i(\boldsymbol{s}_i(t),\boldsymbol{a}_i(t)) = (1-x_i(t))\Big(l_i^{\text{C}}(t) - t + 1\Big)  +$
+	\begin{alignat}{2}
+		\;\;\;\; x_i(t)\bigg( \sum\limits_{\mathcal{J}} \sum\limits_{t'=t}^{T}\mathbbm{1}\big(z_{i,j}^{\text{E}}(t')=z_i(t)\big) l_{i,j}^{\text{E}}(t') - t +1\bigg)
+		\label{21}  
+	\end{alignat} 
+	\textcolor{teal}{[Energy]}\vspace{3mm}
+	
+	$\mathcal{E}_i(\boldsymbol{s}_i(t),\boldsymbol{a}_i(t)) = (1-x_i(t)) E_i^{\text{L}}(t)+$
+	\begin{alignat}{2}
+		\hspace{1.8cm} x_i(t)\bigg( \sum\limits_{\mathcal{J}} \sum\limits_{t^{'}=t}^{T}\mathbbm{1}\big(z_{i,j}^{\text{E}}(t') = z_i(t)\big) E_i^{\text{O}}(t)  \bigg)
+		\label{22}  
+	\end{alignat}
+	
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Markov Decision Process}
+	
+
+		\textcolor{teal}{[Cost]} 	\vspace{3mm}
+		
+		$\mathcal{C}_i(\boldsymbol{s}_i(t),\boldsymbol{a}_i(t)) = $
+	\begin{alignat}{2}
+		\phi_i(t) \, \mathcal{D}_i(\boldsymbol{s}_i(t),\boldsymbol{a}_i(t)) +(1-\phi_i(t)) \, \mathcal{E}_i(\boldsymbol{s}_i(t),\boldsymbol{a}_i(t))
+		\label{23}  
+	\end{alignat}
+
+		\vfill
+
+		\textcolor{teal}{[QoE]}   \vspace{3mm}
+	
+
+	$	\boldsymbol{q}_i(\boldsymbol{s}_i(t),\boldsymbol{a}_i(t)) =$
+\begin{alignat}{2}
+	\begin{cases} 
+		\mathcal{R}\textcolor{teal}{^*} - \mathcal{C}_i(\boldsymbol{s}_i(t),\boldsymbol{a}_i(t)) & \hspace*{-2mm} \text{if task $z_i(t)$ processed,} \\
+		- \hspace*{0.8mm} \mathcal{E}_i(\boldsymbol{s}_i(t),\boldsymbol{a}_i(t)) &	\hspace*{-2mm} \text{if task $z_i(t)$ dropped,}
+	\end{cases}
+	\label{26}  
+\end{alignat}
+
+
+
+\begin{enumerate}[]
+	
+	\item  \hspace{0mm}  $\textcolor{teal}{^*}\mathcal{R}$: \textcolor{teal}{A Constant Reward for Completed Task}
+	
+	
+\end{enumerate}
+
+\end{frame}
