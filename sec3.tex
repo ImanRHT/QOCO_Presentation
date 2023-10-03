@@ -9,21 +9,25 @@
 	
 	\textbf{State Space:}
 	\begin{alignat}{2}
-		\boldsymbol{s}_i(t) = \Big(\lambda_i(t), \delta_i^{C}(t), \delta_i^{T}(t), \boldsymbol{\eta}_i^{E}(t-1)\textcolor{teal}{^\circ},\phi_i(t), \mathcal{H}(t)\textcolor{teal}{^\diamond} \Big)
+		\boldsymbol{s}_i(t) = \Big(\lambda_i(t), \delta_i^{C}(t), \delta_i^{T}(t), \boldsymbol{\eta}_i^{E}(t-1)\textcolor{teal}{^\circ},\phi_i(t)\textcolor{teal}{^\times}, \mathcal{H}(t)\textcolor{teal}{^\diamond} \Big)
 		\label{18}
 	\end{alignat}
 
 	\begin{enumerate}[]
 		
-		\item  \hspace{0mm} $\textcolor{teal}{^\circ} \boldsymbol{\eta}_i^{E}(t-1) = (\eta_{i,j}^{E}(t-1), j \in \mathcal{J})$
+		%\item  \hspace{0mm} $\textcolor{teal}{^\circ} \boldsymbol{\eta}_i^{E}(t-1) = (\eta_{i,j}^{E}(t-1), j \in \mathcal{J})$
 		\vspace{2mm}
 		
-		\item  \hspace{0mm} $\textcolor{teal}{^\diamond} h_{i,j}(t) = B_j(t - T^{s} + i - 1)  \longrightarrow$ \textcolor{teal}{$T^{s} \times J$}
+		\item  \hspace{0mm} $\textcolor{teal}{^\diamond}\mathcal{H}(t):$ Edge Load History Matrix \vspace{2mm} 
+		
+		 %$\hspace{2cm} h_{i,j}(t) = B_j(t - T^{s} + i - 1)  \longrightarrow$ \textcolor{teal}{$T^{s} \times J$}
+				\vspace{2mm}
+		\item  \hspace{0mm}  $\textcolor{teal}{^\times} \phi_i(t):$  MD Battery Level
 	
 	\end{enumerate}
+$$\Bigg[\textcolor{teal}{\mathcal{S} =  \Lambda \times T^2 \times \mathcal{U} \times 3 \times I^{T^{\text{s}} \times J}}\Bigg]$$
 
-$$\longrightarrow \textcolor{teal}{\mathcal{S} =  \Lambda \times T^2 \times \mathcal{U} \times 3 \times I^{T^{\text{s}} \times J}}$$
-	\vfill
+
 	\textbf{Action Space:}
 	\begin{alignat}{2}
 		\boldsymbol{a}_i(t) = (x_i(t), \boldsymbol{y}_i(t)\textcolor{teal}{^*})
@@ -100,3 +104,31 @@ $$\longrightarrow \textcolor{teal}{\mathcal{S} =  \Lambda \times T^2 \times \mat
 \end{enumerate}
 
 \end{frame}
+
+
+\begin{frame}
+	\frametitle{QoE Optimization Problem}
+
+	\begin{alignat}{2}
+		\textcolor{teal}{^\circ}\pi_i^* = \text{arg}\,\,  \max\limits_{\pi_i}  \mathbbm{E} \Bigg[ \sum\limits_{t \in \mathcal{T}}  \textcolor{teal}{^*}\gamma^{t-1}\boldsymbol{q}_i(\boldsymbol{s}_i(t),\boldsymbol{a}_i(t) \Bigg| \pi_i \Bigg]
+		\label{24}  
+	\end{alignat}	
+
+\vfill 
+\begin{enumerate}[]
+	
+	\item  \hspace{0mm}  $\textcolor{teal}{^\circ}\pi_i^*:$ \textcolor{teal}{Optimal Policy} 
+	
+	\item  \hspace{15mm} $\Rightarrow$ maximizes the long-term QoE
+	
+	\vspace{5mm}
+	
+	\item  \hspace{0mm}  $\textcolor{teal}{^*}\gamma \,\,\,:$ \textcolor{teal}{Discount Factor} 
+	
+	\item  \hspace{15mm}$\Rightarrow$ balance between instant QoE and  long-term QoE
+	
+	
+\end{enumerate}
+
+\end{frame}
+

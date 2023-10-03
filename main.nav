@@ -52,33 +52,39 @@
 \headcommand {\beamer@framepages {16}{16}}
 \headcommand {\slideentry {4}{2}{3}{17/17}{QoE Optimization Problem}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@sectionpages {1}{17}}
-\headcommand {\beamer@subsectionpages {1}{17}}
-\headcommand {\sectionentry {5}{DRL-Based QOCO Algorithm}{18}{DRL-Based QOCO Algorithm}{0}}
-\headcommand {\slideentry {5}{0}{1}{18/18}{}{0}}
+\headcommand {\slideentry {4}{2}{4}{18/18}{QoE Optimization Problem}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {5}{0}{2}{19/19}{}{0}}
+\headcommand {\beamer@sectionpages {1}{18}}
+\headcommand {\beamer@subsectionpages {1}{18}}
+\headcommand {\sectionentry {5}{DRL-Based QOCO Algorithm}{19}{DRL-Based QOCO Algorithm}{0}}
+\headcommand {\slideentry {5}{0}{1}{19/19}{}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@sectionpages {1}{19}}
-\headcommand {\beamer@subsectionpages {1}{19}}
-\headcommand {\sectionentry {6}{Performance Evaluation}{20}{Performance Evaluation}{0}}
-\headcommand {\slideentry {6}{0}{1}{20/20}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@subsectionpages {20}{20}}
-\headcommand {\beamer@subsectionentry {0}{6}{1}{21}{Simulation Settings}}
-\headcommand {\beamer@subsectionpages {21}{20}}
-\headcommand {\beamer@subsectionentry {0}{6}{2}{21}{Performance Comparison}}
-\headcommand {\slideentry {6}{2}{1}{21/21}{Performance Comparison}{0}}
+\headcommand {\slideentry {5}{0}{3}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\beamer@sectionpages {1}{21}}
-\headcommand {\beamer@subsectionpages {1}{21}}
-\headcommand {\sectionentry {7}{Conclusion and Future Work}{22}{Conclusion and Future Work}{0}}
-\headcommand {\slideentry {7}{0}{1}{22/22}{}{0}}
+\headcommand {\slideentry {5}{0}{4}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {7}{0}{2}{23/23}{}{0}}
+\headcommand {\beamer@sectionpages {1}{22}}
+\headcommand {\beamer@subsectionpages {1}{22}}
+\headcommand {\sectionentry {6}{Performance Evaluation}{23}{Performance Evaluation}{0}}
+\headcommand {\slideentry {6}{0}{1}{23/23}{}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@partpages {1}{23}}
-\headcommand {\beamer@subsectionpages {1}{23}}
-\headcommand {\beamer@sectionpages {1}{23}}
-\headcommand {\beamer@documentpages {23}}
-\headcommand {\gdef \inserttotalframenumber {23}}
+\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{24}{Simulation Settings}}
+\headcommand {\beamer@subsectionpages {24}{23}}
+\headcommand {\beamer@subsectionentry {0}{6}{2}{24}{Performance Comparison}}
+\headcommand {\slideentry {6}{2}{1}{24/24}{Performance Comparison}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@sectionpages {1}{24}}
+\headcommand {\beamer@subsectionpages {1}{24}}
+\headcommand {\sectionentry {7}{Conclusion and Future Work}{25}{Conclusion and Future Work}{0}}
+\headcommand {\slideentry {7}{0}{1}{25/25}{}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {7}{0}{2}{26/26}{}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\beamer@partpages {1}{26}}
+\headcommand {\beamer@subsectionpages {1}{26}}
+\headcommand {\beamer@sectionpages {1}{26}}
+\headcommand {\beamer@documentpages {26}}
+\headcommand {\gdef \inserttotalframenumber {26}}

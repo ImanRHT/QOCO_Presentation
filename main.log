@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  2 OCT 2023 19:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  3 OCT 2023 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1185,7 +1185,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 91.
 
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
@@ -1349,16 +1353,16 @@ Package amsmath Warning: Foreign command \over;
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 38.
+             The label is:  on input line 42.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 38.
+             The label is:  on input line 42.
 
 [15
 
 ]
-LaTeX Font Info:    Trying to load font information for U+bbm on input line 64.
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 68.
 
  (/usr/local/texlive/2021/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
@@ -1367,22 +1371,36 @@ File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 102.
+             The label is:  on input line 106.
 
 [17
 
-]) (./sec4.tex (./main.toc) [18
+]
 
-] [19
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 133.
 
-]) (./sec5.tex (./main.toc) [20
+[18
+
+]) (./sec4.tex (./main.toc) [19
 
 ]
-[21
+File: DQN.pdf Graphic file (type pdf)
+<use DQN.pdf>
+ [20
 
-]) (./sec6.tex (./main.toc) [22
+] [21
 
-] [23
+] [22
+
+]) (./sec5.tex (./main.toc)
+[23
+
+] [24
+
+]) (./sec6.tex (./main.toc) [25
+
+] [26
 
 ])
 \tf@nav=\write8
@@ -1395,16 +1413,25 @@ LaTeX Warning: The counter will not be printed.
 \openout10 = `main.snm'.
 
  (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0C7165FB2D231984F643A9971BAB463F;1944.
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 3DBAAE685769BBC25B69C4D92B025308;1944
+(rerunfilecheck)             After:  BDD901EA13F53C94AE2785CEC6A2847E;1944.
  ) 
 Here is how much of TeX's memory you used:
- 31342 strings out of 476919
- 650032 string characters out of 5821839
- 1011943 words of memory out of 5000000
- 50653 multiletter control sequences out of 15000+600000
+ 31353 strings out of 476919
+ 650138 string characters out of 5821839
+ 1012245 words of memory out of 5000000
+ 50664 multiletter control sequences out of 15000+600000
  412436 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  131i,21n,132p,417b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (23 pages).
+Output written on main.pdf (26 pages).
