@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  3 OCT 2023 21:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  4 OCT 2023 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1189,6 +1189,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Warning: Label `fig1' multiply defined.
 
+
+LaTeX Warning: Label `26' multiply defined.
+
+
+LaTeX Warning: Label `table' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1398,9 +1404,44 @@ File: DQN.pdf Graphic file (type pdf)
 
 ] [24
 
-]) (./sec6.tex (./main.toc) [25
+]
 
-] [26
+LaTeX Warning: Citation `yang2018distributed' on page 25 undefined on input lin
+e 64.
+
+[25
+
+]
+File: 111.pdf Graphic file (type pdf)
+<use 111.pdf>
+File: 112.pdf Graphic file (type pdf)
+<use 112.pdf>
+ [26
+
+]
+File: 222.pdf Graphic file (type pdf)
+<use 222.pdf>
+File: 223.pdf Graphic file (type pdf)
+<use 223.pdf>
+ [27
+
+]
+File: 333.pdf Graphic file (type pdf)
+<use 333.pdf>
+File: 334.png Graphic file (type bmp)
+<334.png>
+ [28
+
+]
+File: 444.pdf Graphic file (type pdf)
+<use 444.pdf>
+File: 445.pdf Graphic file (type pdf)
+<use 445.pdf>
+ [29
+
+]) (./sec6.tex (./main.toc) [30
+
+] [31
 
 ])
 \tf@nav=\write8
@@ -1414,24 +1455,21 @@ File: DQN.pdf Graphic file (type pdf)
 
  (./main.aux)
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 3DBAAE685769BBC25B69C4D92B025308;1944
-(rerunfilecheck)             After:  BDD901EA13F53C94AE2785CEC6A2847E;1944.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: BDD901EA13F53C94AE2785CEC6A2847E;1944.
  ) 
 Here is how much of TeX's memory you used:
- 31353 strings out of 476919
- 650138 string characters out of 5821839
- 1012245 words of memory out of 5000000
- 50664 multiletter control sequences out of 15000+600000
- 412436 words of font info for 69 fonts, out of 8000000 for 9000
+ 31432 strings out of 476919
+ 650938 string characters out of 5821839
+ 1013054 words of memory out of 5000000
+ 50735 multiletter control sequences out of 15000+600000
+ 413360 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,21n,132p,417b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,27n,132p,417b,719s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (26 pages).
+Output written on main.pdf (31 pages).

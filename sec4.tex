@@ -4,11 +4,10 @@
 
 \begin{frame}
 	\frametitle{DQN-based solution}
-	
 	\begin{figure}
 	\captionsetup{name=Fig.}
 	\centering
-	\includegraphics[width=0.85\linewidth]{DQN}
+	\includegraphics[width=0.9\linewidth]{DQN}
 	\vspace*{-5mm}
 	%\caption{An illustration MD $i \in \mathcal{I}$ and EN $j \in \mathcal{J}$ in the MEC system.}
 	\vspace*{-3mm}
@@ -37,19 +36,31 @@
 
 \begin{frame}
 	\frametitle{QOCO Algorithm}
-	
-	\textbf{Offloading Decision Algorithm at MD}
-	
 
-	\vspace{6mm}
+	\textbf{Offloading Decision Algorithm at MD:}
+	\vfill
+
+
 	
 	\begin{itemize}[]
 		
-		\item Offloading Decision Algorithm at MD
 		
+		\item Receive network parameter vector $\theta_i^{\text{E}}$ from EN
+				\vspace{2mm}
+		\item Select an Action for each Computation Task based on 
+			\begin{alignat}{2}
+			\hspace*{-2mm}\boldsymbol{a}_i(t) \hspace*{-0.5mm} = \hspace*{-0.5mm}
+			\begin{cases} 
+				\text{arg $\max_{\boldsymbol{a}\in \mathcal{A}}Q_i^{\text{E}}(\boldsymbol{s}_i(t), \boldsymbol{a}; \theta^{\text{E}}_i)$,} &		\hspace*{-3mm} \text{with $\boldsymbol{\text{p}}(1 -\boldsymbol{\epsilon})$} \vspace{3mm}\\
+				\text{pick an random action from $\mathcal{A}$,} & \hspace*{-3mm} \text{with $\boldsymbol{\text{p}}(\boldsymbol{\epsilon})$}
+			\end{cases}
+			\label{26}  
+		\end{alignat}
+		\vspace{2mm}
 		
-		\item Training Process Algorithm at EN
-		
+		\item Observes a set of QoEs
+		\vspace{2mm}
+		\item Send Experience $(\boldsymbol{s}_i(t), \boldsymbol{a}_i(t), \boldsymbol{q}_i(t), \boldsymbol{s}_i(t+1))$ to EN
 		
 	\end{itemize}
 	
@@ -59,19 +70,35 @@
 \begin{frame}
 	\frametitle{QOCO Algorithm}
 	
-	\textbf{Training Process Algorithm at EN}
+	\textbf{Training Process Algorithm at EN:}
 	
+	\vfill
 	
-	\vspace{6mm}
-	
+
 	\begin{itemize}[]
 		
-		\item Offloading Decision Algorithm at MD
+		\item Stores the Receives Experience $(\boldsymbol{s}_i(t), \boldsymbol{a}_i(t), \boldsymbol{q}_i(t), \boldsymbol{s}_i(t+1))$ 
 		
 		
-		\item Training Process Algorithm at EN
+		\item Calculates the Q-value given the MD experience
+		\begin{alignat}{2}
+			\hat{Q}_{i,n}^{\text{T}} = \boldsymbol{q}_i(n) + \gamma Q_i^{\text{T}}(\boldsymbol{s}_i(n+1)), \tilde{\boldsymbol{a}}_n; \theta_i^{\text{T}})
+			\label{28}  
+		\end{alignat}  
 		
 		
+		\item optimal action for the state
+		\begin{alignat}{2}
+			\tilde{\boldsymbol{a}}_n = \text{arg} \; \max_{\boldsymbol{a} \in \mathcal{A}} \; Q_i^{\text{E}}(\boldsymbol{s}_i(n+1), \boldsymbol{a}; \theta_i^{\text{E}})
+			\label{29}  
+		\end{alignat}
+		
+		\item Updating netwrok based on loss function
+		\begin{alignat}{2}
+			\hspace{-2mm}L(\theta_i^{\text{E}},\hat{\mathbf{Q}}_i^{\text{T}}) = {1 \over |\mathcal{N}| }\hspace{-1mm} \sum\limits_{n \in \mathcal{N}} 	\bigg(Q_i^{\text{E}}(\boldsymbol{s}_i(n) , \boldsymbol{a}_i(n); \theta_i^{\text{E}} ) -   \hat{Q}^{\text{T}}_{i,n}  \bigg)^2
+			\label{30}  
+		\end{alignat}  
+
 	\end{itemize}
 	
 	
