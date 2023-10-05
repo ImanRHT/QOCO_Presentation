@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  4 OCT 2023 16:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.28)  4 OCT 2023 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1404,12 +1404,7 @@ File: DQN.pdf Graphic file (type pdf)
 
 ] [24
 
-]
-
-LaTeX Warning: Citation `yang2018distributed' on page 25 undefined on input lin
-e 64.
-
-[25
+] [25
 
 ]
 File: 111.pdf Graphic file (type pdf)
@@ -1453,10 +1448,8 @@ File: 445.pdf Graphic file (type pdf)
 \tf@snm=\write10
 \openout10 = `main.snm'.
 
- (./main.aux)
 
-LaTeX Warning: There were undefined references.
-
+(./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
