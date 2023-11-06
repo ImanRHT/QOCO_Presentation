@@ -50,33 +50,85 @@
 	\end{figure}
 
 \vspace{2mm}
+	\vfill
+	\textbf{Task}\vspace{2mm}
 
-
-\begin{table}
-	\renewcommand{\arraystretch}{1.2}
+	\begin{enumerate}[$\bullet$]
 	
+	\item $z_i(t)$:  arrived task in MD
+	\item 	$\lambda_i(t)$:  Required CPU cycles of task 
+	\item $\rho_i(t)$:    Required CPU cycles of task 
+	\item $\Delta_i(t)$:   Required CPU cycles of task
 
-	%\caption{Simulation Parameters}
-	\scalebox{0.8}{%
-		\begin{tabular}{ l|l|l|l } 
-			
-			$z_i(t)$  &   arrived task in MD &  $\delta^C_i(t)$ & Compution Queue in MD\\ 
-			$z^E_i(t)$  &  arrived offloaded task in EN &  $\delta^C_i(t)$ & Compution Queue in MD\\
-			$x_i(t)$  &  Offloading Decision & $\delta^C_i(t)$  & Transsmition Queue in MD\\ 
-			
+	
+	\end{enumerate}
 
-			$y_{i,j}(t)$  &  Offloading Target & $\eta^E_{i,j}(t)$ &  MD Compution Queue in EN\\ 
+\end{frame}
 
-			$f_i$  &  Computation capacity of MD & $B_j(t)$ & Active Queue in EN\\ 
-			$f_j^{E}$ & Computation capacity of EN & $\phi_i(t)$ & MD battery level\\ 
-			 $r_{i,j}(t)$ &  Transmission capacity of MD & $\rho_i(t)$  & Required CPU cycles of task \\ 
+\begin{frame}
+	\frametitle{System Model}
+	
+	\begin{figure}
+		\captionsetup{name=Fig.}
+		\centering
+		\includegraphics[width=1\linewidth]{queue}
+		\vspace*{-5mm}
+		%\caption{An illustration MD $i \in \mathcal{I}$ and EN $j \in \mathcal{J}$ in the MEC system.}
+		\vspace*{-3mm}
+		\label{fig1}
+	\end{figure}
+	
+	\vfill
+	
+	\textbf{Offloading}\vspace{2mm}
+	
+	\begin{enumerate}[$\bullet$]
 		
+		\item $x_i(t)$:    Offloading Decision 
+		\item $y_{i,j}(t)$:   Offloading Target  
+		
+	\end{enumerate}
 
-	\end{tabular}}
-	\label{table}
-\end{table}
+
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{System Model}
+	
+	\begin{figure}
+		\captionsetup{name=Fig.}
+		\centering
+		\includegraphics[width=1\linewidth]{queue}
+		\vspace*{-5mm}
+		%\caption{An illustration MD $i \in \mathcal{I}$ and EN $j \in \mathcal{J}$ in the MEC system.}
+		\vspace*{-3mm}
+		\label{fig1}
+	\end{figure}
+	
+	\vfill
+	
+	\textbf{Queues' Information}\vspace{2mm}
+	
+	\begin{enumerate}[$\bullet$]
+		
+		\item $\delta^C_i(t)$  Compution Queue in MD
+		\item $\delta^C_i(t)$  Transsmition Queue in MD
+		\item $\eta^E_{i,j}(t)$  MD Compution Queue in EN
+		
+	\end{enumerate}
+	
+%				$f_i$  &  Computation capacity of MD \\
+%$f_j^{E}$ & Computation capacity of EN\\ 
+%$\phi_i(t)$ & MD battery level\\
+%$r_{i,j}(t)$ &  Transmission capacity of MD \\
+%$\eta^E_{i,j}(t)$ &  MD Compution Queue in EN\\
+%$\eta^E_{i,j}(t)$ &  MD Compution Queue in EN\\
+%$B_j(t)$ & Active Queue in EN
 	
 \end{frame}
+
 
 
 \begin{frame}
