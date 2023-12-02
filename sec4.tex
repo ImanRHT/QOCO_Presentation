@@ -36,6 +36,55 @@
 
 \begin{frame}
 	\frametitle{QOCO Algorithm}
+	
+
+
+	\textbf{Stracture:}
+	
+	
+	\begin{itemize}[]
+		\item ENs help MDs to traine their neural networks.
+		\item The algorithms to be executed at MD and EN
+		\item Training neural networks with MD experiences 
+
+		
+
+
+			\begin{itemize}{}
+			\item \textbf{(i.e., state, action, QoE, next state)} 
+		\end{itemize}
+		\item Mapping Q-values to each state-action pair
+		
+
+	\end{itemize}
+
+\vspace{4mm}
+
+	
+	\textbf{In detail:}
+	\vspace{1mm}
+\begin{itemize}
+	\item MD's Neural Network in EN:
+
+	\begin{itemize}{}
+		\item \textbf{Replay Memory:} Records the observed experience of MD.
+		\vspace{1mm}
+		\item \textbf{Evaluation Network:} Responsible for action selection. $Q_i^{\text{E}}(\boldsymbol{s}_i(t), \boldsymbol{a}; \theta^{\text{E}}_i)$ 
+			\vspace{1mm}
+		\item \textbf{Target Network:} Characterizes the target Q-values. $Q_i^{\text{T}}(\boldsymbol{s}_i(t), \boldsymbol{a}; \theta^{\text{T}}_i)$
+			\vspace{2mm}
+	\end{itemize}
+	\item Updating the evaluation network parameter vector:
+	\begin{itemize}
+		\item Minimization of the difference between the Q-values under evaluation and target networks.
+	\end{itemize}
+\end{itemize}
+	
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{QOCO Algorithm}
 
 	\textbf{Offloading Decision Algorithm at MD:}
 	\vfill
@@ -45,8 +94,10 @@
 	\begin{itemize}[]
 		
 		
+		\item MD sends an $\textit{UpdateRequest}$ to EN.
+		
 		\item Receive network parameter vector $\theta_i^{\text{E}}$ from EN
-				\vspace{2mm}
+		
 		\item Select an Action for each Computation Task based on 
 			\begin{alignat}{2}
 			\hspace*{-2mm}\boldsymbol{a}_i(t) \hspace*{-0.5mm} = \hspace*{-0.5mm}
@@ -56,10 +107,10 @@
 			\end{cases}
 			\label{26}  
 		\end{alignat}
-		\vspace{2mm}
+
 		
 		\item Observes a set of QoEs
-		\vspace{2mm}
+
 		\item Send Experience $(\boldsymbol{s}_i(t), \boldsymbol{a}_i(t), \boldsymbol{q}_i(t), \boldsymbol{s}_i(t+1))$ to EN
 		
 	\end{itemize}

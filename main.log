@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.28)  6 NOV 2023 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.28)  2 DEC 2023 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1456,77 +1456,79 @@ en already used, duplicate ignored
 l.34 \end{frame}
                  [22
 
- <./DQN.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{
-26}) has been already used, duplicate ignored
+ <./DQN.pdf>] [23
+
+]pdfTeX warning (ext4): destination with the same identifier (name{26}) has bee
+n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 \end{frame}
-                 [23
+l.119 \end{frame}
+                  [24
 
-] [24
+] [25
 
-]) (./sec5.tex (./main.toc) [25
-
-] [26
+]) (./sec5.tex (./main.toc) [26
 
 ] [27
 
+] [28
+
 ]
-<111.pdf, id=981, 457.71pt x 426.59375pt>
+<111.pdf, id=1007, 457.71pt x 426.59375pt>
 File: 111.pdf Graphic file (type pdf)
 <use 111.pdf>
 Package pdftex.def Info: 111.pdf  used on input line 96.
 (pdftex.def)             Requested size: 144.4266pt x 134.60556pt.
-<112.pdf, id=982, 457.71pt x 426.59375pt>
+<112.pdf, id=1008, 457.71pt x 426.59375pt>
 File: 112.pdf Graphic file (type pdf)
 <use 112.pdf>
 Package pdftex.def Info: 112.pdf  used on input line 96.
 (pdftex.def)             Requested size: 144.4266pt x 134.60556pt.
- [28
+ [29
 
  <./111.pdf> <./112.pdf>]
-<222.pdf, id=1046, 456.70625pt x 426.59375pt>
+<222.pdf, id=1073, 456.70625pt x 426.59375pt>
 File: 222.pdf Graphic file (type pdf)
 <use 222.pdf>
 Package pdftex.def Info: 222.pdf  used on input line 129.
 (pdftex.def)             Requested size: 144.4266pt x 134.89848pt.
-<223.pdf, id=1047, 457.71pt x 427.5975pt>
+<223.pdf, id=1074, 457.71pt x 427.5975pt>
 File: 223.pdf Graphic file (type pdf)
 <use 223.pdf>
 Package pdftex.def Info: 223.pdf  used on input line 129.
 (pdftex.def)             Requested size: 144.4266pt x 134.92229pt.
- [29
+ [30
 
  <./222.pdf> <./223.pdf>]
-<333.pdf, id=1112, 457.71pt x 427.5975pt>
+<333.pdf, id=1138, 457.71pt x 427.5975pt>
 File: 333.pdf Graphic file (type pdf)
 <use 333.pdf>
 Package pdftex.def Info: 333.pdf  used on input line 162.
 (pdftex.def)             Requested size: 144.4266pt x 134.92229pt.
-<334.png, id=1113, 457.2282pt x 426.393pt>
+<334.png, id=1139, 457.2282pt x 426.393pt>
 File: 334.png Graphic file (type png)
 <use 334.png>
 Package pdftex.def Info: 334.png  used on input line 162.
 (pdftex.def)             Requested size: 144.4266pt x 134.68535pt.
- [30
+ [31
 
  <./333.pdf> <./334.png>]
-<444.pdf, id=1160, 456.70625pt x 426.59375pt>
-File: 444.pdf Graphic file (type pdf)
-<use 444.pdf>
-Package pdftex.def Info: 444.pdf  used on input line 195.
-(pdftex.def)             Requested size: 144.4266pt x 134.89848pt.
-<445.pdf, id=1161, 457.71pt x 426.59375pt>
+<444_.png, id=1188, 947.54pt x 894.34125pt>
+File: 444_.png Graphic file (type png)
+<use 444_.png>
+Package pdftex.def Info: 444_.png  used on input line 195.
+(pdftex.def)             Requested size: 144.4266pt x 136.31519pt.
+<445.pdf, id=1189, 457.71pt x 426.59375pt>
 File: 445.pdf Graphic file (type pdf)
 <use 445.pdf>
 Package pdftex.def Info: 445.pdf  used on input line 195.
 (pdftex.def)             Requested size: 144.4266pt x 134.60556pt.
 
-[31
+[32
 
- <./444.pdf> <./445.pdf>]) (./sec6.tex (./main.toc) [32
+ <./444_.png> <./445.pdf>]) (./sec6.tex (./main.toc) [33
 
-] [33
+] [34
 
 ])
 \tf@nav=\write8
@@ -1543,14 +1545,14 @@ Package pdftex.def Info: 445.pdf  used on input line 195.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 19AADB09D51D0A21D976BD4214D1B6F4;1944.
+(rerunfilecheck)             Checksum: 1C5349CD57F07E647AF55D5354CEA6F9;1944.
  ) 
 Here is how much of TeX's memory you used:
- 32027 strings out of 478994
- 656706 string characters out of 5858183
+ 32064 strings out of 478994
+ 657623 string characters out of 5858183
  985834 words of memory out of 5000000
- 48710 multiletter control sequences out of 15000+600000
- 415042 words of font info for 71 fonts, out of 8000000 for 9000
+ 48743 multiletter control sequences out of 15000+600000
+ 416394 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,27n,132p,408b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/iman/Library/texlive/2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm10
@@ -1567,13 +1569,14 @@ b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></u
 sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr
 /local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/l
 ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (33 pages, 763545 bytes).
+Output written on main.pdf (34 pages, 1073334 bytes).
 PDF statistics:
- 1368 PDF objects out of 1440 (max. 8388607)
- 1196 compressed objects within 12 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 1382 PDF objects out of 1440 (max. 8388607)
+ 1211 compressed objects within 13 object streams
+ 109 named destinations out of 1000 (max. 500000)
  341 words of extra memory for PDF output out of 10000 (max. 10000000)
 
