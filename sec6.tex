@@ -1,17 +1,51 @@
-\section{Conclusion and Future Work}
+\section{Conclusion}
 %\subsection{Markov Decision Process}
 
 \begin{frame}
-	\frametitle{Conclusion and Future Work}
-
+	\frametitle{Conclusion}
+	
 
 
 	\begin{itemize}[]
 		
-		\item (a) task arrival rate
+		\item We formulated an optimization problem that aims to maximize the QoE of each MD individually.
+		\begin{itemize}
+			\item The QoE reflects the energy consumption and task completion delay.
+		\end{itemize}
 		
-		\item (b) the number of MDs
+		
+		\item Empowering MDs to make offloading decisions.
+		\begin{itemize}
+			\item (without relying on knowledge about task models or other MDs' offloading decisions)
+		\end{itemize}
+		 
+		
+		\item  Adapts to the uncertain dynamics of load levels at ENs.
+		\begin{itemize}
+			\item Effectively manages the ever-changing system environment.
+		\end{itemize} 
 		
 	\end{itemize}
+
+\vfill
+
+	\textbf{Future Work:}
+
+	\begin{itemize}[]
+	
+	\item Extending the task model by considering interdependencies among tasks. 
+	\begin{itemize}
+		\item This can be achieved by incorporating a \textbf{task call graph representation} to develop dependency among task partitions.
+	\end{itemize}
+	
+	\item Enabling MDs to take advantage of federated learning techniques in the training process. 
+	\begin{itemize}
+		\item This allows MDs to collectively contribute to improving the offloading model and enable continuous learning when new MDs join the network.
+	\end{itemize}
+
+	
+\end{itemize}
 	
 \end{frame}
+
+
